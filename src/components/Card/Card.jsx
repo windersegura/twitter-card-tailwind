@@ -12,7 +12,7 @@ export const Card = ({username}) => {
   }
 
   return (
-    <div className="flex rounded-xl p-6 bg-gray-200 w-80 mx-auto shadow-lg space-x-4 items-center">
+    <div className="flex rounded-xl p-6 bg-white w-80 mx-auto shadow-lg space-x-4 items-center">
       <div className=" flex flex-row space-x-4">
         <img src={`https://unavatar.io/twitter/${username}`} alt="profile image"  className=" rounded-full w-14"/>
         <div className=" space-y-0.5">
